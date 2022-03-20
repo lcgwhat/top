@@ -1,0 +1,25 @@
+{
+    "name": "lcgwhat/top",
+    "description": "这是一个简单的包",
+    "autoload": {
+        "psr-4": {
+            "lcgwhat\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lcgwhat",
+            "email": "348437207@qq.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "scripts": {
+        "echo": [
+            "lcgwhat\\Top::myPrint"
+        ]
+    }
+}
